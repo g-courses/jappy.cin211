@@ -224,7 +224,7 @@ Ingrese al directorio `workspace/notebook-examples` y seleccione el archivo `pyt
 
 <figure>
      <div align="center" width="80%">
-        <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04.png" alt=""/>
+        <img width="100%" src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/jupyter04_01.png" alt=""/>
         <br />
         <figure-caption>Figura 4.1 Cuaderno Jupyter de prueba.</figure-caption>
     </div>
@@ -236,6 +236,7 @@ Finalmente, presione `Ejecutar todo` (botón `P` en la Figura 4.1. El cuaderno J
 
 >Nota: El kernel del cuaderno se puede cambiar presionando la sección `K` que se muestra en la Figura 4.1.
 
+Se recomienda que haga este mismo paso para los otros notebooks de ejemplo, que utilizan un kernel `C++` y `Java`.
 
 </details>
 
