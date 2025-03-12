@@ -252,7 +252,7 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 
 <figure>
     <div align="center" width="80%">
-        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/func01.png" alt=""/>
+        <img src="https://raw.githubusercontent.com/g-courses/jappy.rc/refs/heads/main/imgs/classroom/func01_01.png" alt=""/>
         <br />
         <figure-caption>Figura 5.1 Selección de carpetas en el contenedor de desarrollo.</figure-caption>
     </div>
