@@ -70,8 +70,9 @@ git clone https://github.com/g-courses/jappy.classroom.git
 
 <br />
 
+**Nota** En el caso de usar el archivo `zip`, recuerde que *debe* descomprimir dicho archivo.
 
-Debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` estén en el directorio creado:
+En ambos caso, debe verificar que los archivos `.devcontainer.json` y `docker-compose.yml` estén en el directorio creado:
 
 <figure>
     <div align="center" width="80%">
