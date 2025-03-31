@@ -54,7 +54,7 @@ Para instalar el contenedor de desarrollo, es suficiente tener los archivos `.de
 
 <br />
 
-2) Clone este repositorio:
+2) Clone este repositorio o baje y descomprima el archivo `zip` que está disponible en el repositorio:
 
 ```
 git clone https://github.com/g-courses/jappy.classroom.git
