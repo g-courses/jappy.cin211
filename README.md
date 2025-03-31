@@ -153,7 +153,7 @@ Para detener el contenedor, debe ingresar el comando `docker compose down`.
 
 En este caso, el software `VS Code` inicia el contenedor revisando el contenido del archivo `.devcontainer.json` y `docker-compose.yml`.
 
-1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`.
+1) En el explorador de archivos, seleccione `Abrir con VS Code` en el menú contextual de la carpeta `codes_examples`. Debe recordar que la carpeta que abara en VS Code **debe** tener los archivos `.devcontainer.json` y `docker-compose.yml, además de la carpeta `workspace`.
 
 <figure>
      <div align="center" width="80%">
@@ -164,6 +164,8 @@ En este caso, el software `VS Code` inicia el contenedor revisando el contenido 
 </figure>
 
 <br />
+
+**Observación** Si no tiene la opción contextual mencioanda, abra `VS Code` y seleccione la opción `Archivo->Abrir Carpeta`. Para evitar futuros errores al abrir `VS Code`, se recomienda que la opción `Window: Restore Windows` sea configurada a `None`, en la configuración de `VS Code`.
 
 
 2) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 3.2. Seleccione **Volver a abrir en el contenedor**.
@@ -267,6 +269,8 @@ El contenedor de desarrollo tiene todo lo necesario para el desarrollo de la asi
 3) Finalmente, presione `Ejecutar todo`. El cuaderno Jupyter debe mostrar un mensaje `Hola mundo`, un grafico sencillo y un diagrama UML. Si lo anterior se cumple, el servidor Jupyter está operando y su ambiente de desarrollo esta listo.
 
 >**Nota** Debido a que el contenedor iniciado a través de `VS Code` queda asociado al puerto `8888/tcp`, no pueden exister simultáneamente dos contenedores.
+
+>**Nota** Si utiliza `VS Code` para iniciar el ambiente de desarrollo, también puede ingresar vía http al servidor Jupyter a través de la dirección `http://localhost:8888`.
 
 </details>
 
